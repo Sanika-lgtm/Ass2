@@ -1,0 +1,174 @@
+/* General Styles */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+  background-color: #fff;
+}
+
+.logo {
+  color: #d63384 !important;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.logo span {
+  color: #333;
+  font-weight: normal;
+}
+
+.text-pink {
+  color: #d63384;
+}
+
+.bg-pink {
+  background-color: #d63384;
+}
+
+.btn-pink {
+  background-color: #d63384;
+  color: white;
+  border: 1px solid #d63384;
+}
+
+.btn-pink:hover {
+  background-color: #b02a6f;
+  color: white;
+  border-color: #b02a6f;
+}
+
+/* Hero Section */
+
+.hero-section {
+  background-color: #fff1f7;
+  padding: 100px 0;
+}
+
+.hero-image {
+  max-height: 500px;
+  width: 100%;
+  object-fit: cover;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Page Header */
+
+.page-header {
+  background-color: #fff1f7;
+  padding: 70px 0;
+}
+
+/* Section Titles */
+
+.section-title {
+  color: #d63384;
+}
+
+/* Feature Cards */
+
+.feature-card {
+  border: none;
+  transition: 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(214, 51, 132, 0.15);
+}
+
+.feature-icon {
+  color: #d63384;
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+/* Carousel */
+
+.carousel-image {
+  height: 420px;
+  object-fit: cover;
+}
+
+/* Product Cards */
+
+.product-card {
+  border: none;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition: 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.product-image {
+  height: 250px;
+  object-fit: cover;
+}
+
+/* Alert */
+
+.alert-pink {
+  background-color: #ffe0ed;
+  color: #8f174f;
+  border-color: #f5a8c9;
+}
+
+/* Contact Page */
+
+.contact-form {
+  background-color: #fff;
+}
+
+.contact-detail {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+  font-size: 1.05rem;
+}
+
+.contact-detail i {
+  color: #d63384;
+  font-size: 1.3rem;
+}
+
+/* Footer */
+
+.footer {
+  background-color: #30232a;
+  color: white;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 1.3rem;
+  margin: 0 8px;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #f783ac;
+}
+
+/* Responsive Adjustments */
+
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 70px 0;
+  }
+
+  .hero-section h1 {
+    font-size: 2.5rem;
+  }
+
+  .carousel-image {
+    height: 280px;
+  }
+
+  .page-header {
+    padding: 50px 0;
+  }
+}
